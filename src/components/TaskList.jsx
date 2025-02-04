@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* eslint-disable react/prop-types */
 
 function TaskList({Task, toggleTask,deleteTask}) {
@@ -24,6 +25,28 @@ function TaskList({Task, toggleTask,deleteTask}) {
 			</li>
 			))}
 		</ul>
+=======
+import Task from "./Task";
+
+const TaskList = () => {
+    return (
+        <div className="flex flex-col h-7/8 p-5 gap-2 overflow-y-auto">
+            <Task/>
+            <Task/>
+            <Task/>
+            <Task/>
+            <Task/>
+            <Task/>
+            <Task/>
+            <Task/>
+            <Task/>
+            <Task/>
+            <Task/>
+            <Task/>
+            <Task/>
+            <Task/>
+        </div>
+>>>>>>> 9b2983eff353aef113a4ac3d842a57feb8e55593
     )
 }
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import './App.css'
 import { useState, useEffect } from 'react'
@@ -70,3 +71,12 @@ function App() {
 }
 
 export default App
+=======
+import TodoBox from "./components/TodoBox";
+
+export default function App() {
+	return (
+		<TodoBox/>
+	);
+}
+>>>>>>> 9b2983eff353aef113a4ac3d842a57feb8e55593
