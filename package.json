@@ -5,8 +5,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://github.com/Abhishek1334/React-TodoList",
-  "version": "0.0.0",
-  "type": "module",
 
   "scripts": {
     "dev": "vite",
